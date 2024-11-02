@@ -13,13 +13,13 @@ public class CirculoController implements IGeometriaController<Circulo> {
 
     @Override
     public float calcularArea(Circulo circulo) {
-        float raio = circulo.getRaio(); // Usa o método getRaio() que calcula o raio a partir do diâmetro
+        float raio = circulo.getRaio();
         return (float) (Math.PI * Math.pow(raio, 2));
     }
 
     @Override
     public float calcularPerimetro(Circulo circulo) {
-        float raio = circulo.getRaio(); // Usa o método getRaio() que calcula o raio a partir do diâmetro
+        float raio = circulo.getRaio(); 
         return (float) (2 * Math.PI * raio);
     }
 }
