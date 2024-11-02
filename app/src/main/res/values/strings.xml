@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Geometria Fácil</string>
+
+    <!-- Opções de figuras geométricas -->
+    <string name="figura_retangulo">Retângulo</string>
+    <string name="figura_circulo">Círculo</string>
+
+    <!-- Campos de entrada -->
+    <string name="campo_altura">Altura</string>
+    <string name="campo_base">Base</string>
+    <string name="campo_diametro">Diâmetro</string>
+
+    <!-- Botões de cálculo -->
+    <string name="botao_area">Área</string>
+    <string name="botao_perimetro">Perímetro</string>
+
+    <!-- Resultado -->
+    <string name="resultado">Resultado:</string>
+</resources>
